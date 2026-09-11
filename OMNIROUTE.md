@@ -51,9 +51,10 @@ omniroute --version
 omniroute serve
 ```
 
-La passerelle démarre sur **http://localhost:20128** et l'API se trouve à
-**http://localhost:20128/v1**. Elle fonctionne dès le départ, sans clé d'API,
-grâce au modèle `auto` pré-configuré.
+Le démarrage prend quelques secondes, puis un logo s'affiche avec deux adresses :
+
+- le tableau de bord, à ouvrir dans ton navigateur : **http://localhost:20128**
+- l'API, à donner à tes outils : **http://localhost:20128/v1**
 
 Pour changer de port :
 
@@ -61,7 +62,57 @@ Pour changer de port :
 omniroute serve --port 3000
 ```
 
-## 5. Les commandes utiles
+## 5. Créer ton compte et récupérer ta clé
+
+La passerelle démarre toute seule, mais elle n'est pas ouverte pour autant :
+tant que tu n'as pas de compte, le tableau de bord te renvoie vers une page de
+connexion et l'API répond `401 — Authentication required`.
+
+Ouvre donc **http://localhost:20128** dans ton navigateur : OmniRoute te fera
+créer un identifiant, et c'est là que tu obtiendras la clé d'API à donner à tes
+outils.
+
+Si tu oublies ton mot de passe :
+
+```bash
+omniroute-reset-password
+```
+
+## 6. N'écouter qu'en local (recommandé)
+
+Par défaut, OmniRoute écoute sur **toutes** les interfaces réseau, pas seulement
+sur ton ordinateur. Il le signale d'ailleurs lui-même au démarrage :
+
+> ⚠ SECURITY: listening on 0.0.0.0 with NO API-key requirement — the inference
+> plane (/v1/*) is reachable by ANY device that can route to this host, and
+> requests are billed to your configured providers.
+
+Autrement dit : sur un réseau que tu ne maîtrises pas (wifi public, réseau
+d'entreprise), une autre machine pourrait envoyer des requêtes facturées sur tes
+comptes. Pour n'autoriser que ta propre machine :
+
+```bash
+OMNIROUTE_SERVER_HOST=127.0.0.1 omniroute serve
+```
+
+Pour ne pas avoir à le retaper à chaque fois, inscris-le une bonne fois dans ton
+fichier de réglages personnel :
+
+```bash
+echo "OMNIROUTE_SERVER_HOST=127.0.0.1" >> ~/.omniroute/.env
+```
+
+Ensuite un simple `omniroute serve` suffit. Tu sauras que c'est pris en compte
+parce que l'avertissement orange ci-dessus ne s'affiche plus au démarrage.
+
+**À propos de `~/.omniroute/.env`** : c'est le fichier de réglages personnels
+d'OmniRoute, rangé dans ton dossier utilisateur. C'est le bon endroit pour tout
+réglage durable, car il l'emporte sur les réglages livrés avec le programme.
+Il contient aussi ta clé de chiffrement (`STORAGE_ENCRYPTION_KEY`, créée
+automatiquement au premier démarrage) : ne le partage pas et ne le mets jamais
+sur GitHub.
+
+## 7. Les commandes utiles
 
 Il y a environ 87 sous-commandes. Les principales :
 
@@ -84,7 +135,7 @@ Il existe aussi des commandes de configuration automatique pour les outils de
 développement : `omniroute setup-claude`, `setup-cursor`, `setup-codex`,
 `setup-aider`, et une dizaine d'autres.
 
-## 6. Désinstaller
+## 8. Désinstaller
 
 ```bash
 npm uninstall -g omniroute
