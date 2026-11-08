@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon premier site</title>
+  <meta name="description" content="Ma page personnelle pour apprendre à créer un site web.">
+  <style>
+    /* Couleurs du site : modifiez ces valeurs pour changer l'apparence */
+    :root {
+      --fond: #f7f5f0;
+      --carte: #ffffff;
+      --texte: #1f2328;
+      --discret: #5b616b;
+      --accent: #1a6b5c;
+      --bordure: #e3dfd6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fond: #15181c;
+        --carte: #1e2227;
+        --texte: #e8e6e1;
+        --discret: #a0a6ae;
+        --accent: #5cc4ae;
+        --bordure: #2e333a;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      background: var(--fond);
+      color: var(--texte);
+    }
+    a { color: var(--accent); }
+    .conteneur { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+
+    header { padding: 64px 0 32px; }
+    header h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 12px; }
+    header p { font-size: 1.15rem; color: var(--discret); margin: 0; }
+
+    nav { position: sticky; top: 0; background: var(--fond); border-bottom: 1px solid var(--bordure); z-index: 1; }
+    nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 20px; margin: 0; padding: 12px 0; }
+    nav a { text-decoration: none; font-weight: 500; }
+
+    section { padding: 40px 0 8px; }
+    h2 { font-size: 1.5rem; margin: 0 0 16px; }
+
+    .grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+    .carte {
+      background: var(--carte);
+      border: 1px solid var(--bordure);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .carte h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .carte p { margin: 0; color: var(--discret); font-size: .95rem; }
+
+    ol.etapes { padding-left: 20px; }
+    ol.etapes li { margin-bottom: 8px; }
+    .fait { color: var(--accent); font-weight: 600; }
+
+    footer { padding: 48px 0; color: var(--discret); font-size: .9rem; }
+  </style>
+</head>
+<body>
+
+  <header class="conteneur">
+    <h1>Bienvenue sur mon premier site</h1>
+    <p>J'apprends à créer des pages web. Ce site évolue avec mes progrès.</p>
+  </header>
+
+  <nav>
+    <div class="conteneur">
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#apprentissage">Ce que j'apprends</a></li>
+        <li><a href="#progres">Mes progrès</a></li>
+        <li><a href="#ressources">Ressources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="conteneur">
+
+    <section id="apropos">
+      <h2>À propos</h2>
+      <!-- Remplacez ce texte par quelques phrases sur vous -->
+      <p>
+        Je ne suis pas informaticien, mais j'ai envie de comprendre comment
+        fonctionne le web. Ce site est mon terrain d'entraînement : je le modifie
+        au fur et à mesure que j'apprends.
+      </p>
+    </section>
+
+    <section id="apprentissage">
+      <h2>Ce que j'apprends</h2>
+      <div class="grille">
+        <div class="carte">
+          <h3>HTML</h3>
+          <p>La structure de la page : titres, paragraphes, liens, images.</p>
+        </div>
+        <div class="carte">
+          <h3>CSS</h3>
+          <p>L'apparence : couleurs, tailles, mise en page sur ordinateur et téléphone.</p>
+        </div>
+        <div class="carte">
+          <h3>GitHub</h3>
+          <p>Sauvegarder mon travail et publier gratuitement le site en ligne.</p>
+        </div>
+        <div class="carte">
+          <h3>L'IA comme aide</h3>
+          <p>Me faire expliquer le code et corriger mes erreurs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="progres">
+      <h2>Mes progrès</h2>
+      <ol class="etapes">
+        <li><span class="fait">Fait</span> : créer un compte GitHub et un dépôt.</li>
+        <li><span class="fait">Fait</span> : publier une première page.</li>
+        <li>À faire : personnaliser le texte «&nbsp;À propos&nbsp;».</li>
+        <li>À faire : ajouter une photo ou une image.</li>
+        <li>À faire : créer une deuxième page et la relier à celle-ci.</li>
+      </ol>
+    </section>
+
+    <section id="ressources">
+      <h2>Ressources utiles</h2>
+      <p>Des listes d'outils que je garde sous le coude. Le détail est dans
+        <a href="https://github.com/bendella/pageWeb/blob/master/RESSOURCES.md">RESSOURCES.md</a>.</p>
+      <div class="grille">
+        <div class="carte">
+          <h3><a href="https://github.com/sindresorhus/awesome">Awesome</a></h3>
+          <p>La liste des listes, pour trouver des ressources sur tout sujet.</p>
+        </div>
+        <div class="carte">
+          <h3><a href="https://github.com/public-apis/public-apis">Public APIs</a></h3>
+          <p>Des services gratuits pour afficher des données (météo, actualités…).</p>
+        </div>
+        <div class="carte">
+          <h3><a href="https://github.com/ripienaar/free-for-dev">Free for dev</a></h3>
+          <p>Des services en ligne avec une offre gratuite.</p>
+        </div>
+        <div class="carte">
+          <h3><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Awesome LLM Apps</a></h3>
+          <p>Des exemples d'applications qui utilisent l'IA.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="conteneur">
+    Site créé pour apprendre &middot; hébergé gratuitement sur GitHub Pages.
+  </footer>
+
+</body>
+</html>
