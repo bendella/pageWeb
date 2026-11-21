@@ -1,233 +1,933 @@
 {
-  "version": 1,
+  "version": 2,
   "skills": {
     "ask-matt": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/ask-matt/SKILL.md",
-      "computedHash": "d1c5b4151720e96135154bd593ac4986a1030a2bc81e2aaf129f8b11224af9a9"
+      "computedHash": ""
+    },
+    "brand-monitoring": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "brand-monitoring/SKILL.md",
+      "computedHash": "7f56b8ef45099eb164fa9dc1497f2c39596bea2f633897bea84547c5e7981332"
     },
     "chief-of-staff": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/chief-of-staff/SKILL.md",
-      "computedHash": "8a5ccad808e4f6158380720907f0af3a96bbee98cc5aa721053acd97fa72ce4b"
+      "computedHash": ""
     },
     "claude-handoff": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
-      "computedHash": "43a71462e5ad089e652133fe6f8c3c3835688a143e0ad973d6c5b803d1dbafe7"
+      "computedHash": ""
     },
     "code-review": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/code-review/SKILL.md",
-      "computedHash": "c2745e2be960b82b9fddd82cf45265f42431e7b045c403f297b25f0f311e9210"
+      "computedHash": ""
     },
     "codebase-design": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/codebase-design/SKILL.md",
-      "computedHash": "aa11a96c08451f4ff86052d5da94004a8c97bb4ea41b2ac8a4300c189f66c89c"
+      "computedHash": ""
+    },
+    "competitive-pricing-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "competitive-pricing-strategy/SKILL.md",
+      "computedHash": "d5c5b3162275a4753a285cb7b8b7bc73a15183c8777c1ab24a71d94bae2cb95e"
+    },
+    "competitor-price-analysis": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "competitor-price-analysis/SKILL.md",
+      "computedHash": "526354820320bbeca7ec9e25e0816937a1a436b7b0de9625062d83422f8cb250"
+    },
+    "competitor-price-tracker": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "competitor-price-tracker/SKILL.md",
+      "computedHash": "100c617ed1ba176f3fd687319c197642b129fab51e03fa9ad6b687741c1e5c0c"
+    },
+    "cross-border-ecommerce": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "cross-border-ecommerce/SKILL.md",
+      "computedHash": "d42a588deb7d1f8657772c6e8575aeeb635250380474f1a2b632c54cc664526e"
     },
     "diagnosing-bugs": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
-      "computedHash": "ede7254edbd22fcab97a0941511f7d440d8f9a249348fea97c50987ad5501674"
+      "computedHash": ""
     },
     "domain-modeling": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/domain-modeling/SKILL.md",
-      "computedHash": "b3eb40152b81f0c98fd2095a023c019452dbdce56f7540cc67fece2972db8369"
+      "computedHash": ""
+    },
+    "dropshipping-product-research": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "dropshipping-product-research/SKILL.md",
+      "computedHash": "2aa4113470215aecf55e8e75c90a38009f62cb63aa2807d38b984b75d17fe39e"
+    },
+    "dynamic-pricing-ecommerce": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "dynamic-pricing-ecommerce/SKILL.md",
+      "computedHash": "22c08b45f166fce71d029f24a7339381c6730a759a3df132ae1f14b54d87e1d9"
+    },
+    "ecommerce-branding": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-branding/SKILL.md",
+      "computedHash": "59864d05299a67ea5772724099cca6869aeafda512eef8ab3c7d7085cf926740"
+    },
+    "ecommerce-business-plan": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-business-plan/SKILL.md",
+      "computedHash": "812d041bdfb8358e1870579ab85f0c191efd74c8db5b12a67fd5144455cc6ee4"
+    },
+    "ecommerce-checkout-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-checkout-optimization/SKILL.md",
+      "computedHash": "89268be2e5997eab18c064f7f18703acc480e2446890e5353aeaa1daa37d1dc6"
+    },
+    "ecommerce-competitor-analysis": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-competitor-analysis/SKILL.md",
+      "computedHash": "654c18e74091188dba371ff06e7d36b8a132ec3b8c68556a0e0e81607a5698d0"
+    },
+    "ecommerce-content-marketing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-content-marketing/SKILL.md",
+      "computedHash": "f20024338688e526d73c9d0fd0c9f7efa3c7b1a452b31e36be9db1d22e444318"
+    },
+    "ecommerce-email-marketing-builder": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-email-marketing-builder/SKILL.md",
+      "computedHash": "cadf7068d4a935eebb150cbce7baef34d9d1bb5fc7e24e56d459d2eba0960b9e"
+    },
+    "ecommerce-growth-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-growth-strategy/SKILL.md",
+      "computedHash": "5ce50d713f6b97ccf6b565e561f1266e20a01251dbdc2a01bc44806d78d2cff8"
+    },
+    "ecommerce-keyword-research": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-keyword-research/SKILL.md",
+      "computedHash": "06eb275e962ed2733db7a3543ec4305af04832e14c9d51c3e42580971295ce6b"
+    },
+    "ecommerce-landing-page": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-landing-page/SKILL.md",
+      "computedHash": "ab0fe96d6afade5226c2e6c03fa39defc30941f0b54fef07b19649aa6c48a21e"
+    },
+    "ecommerce-marketing-strategy-builder": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-marketing-strategy-builder/SKILL.md",
+      "computedHash": "67e36f86f5c6ff798feffc8fcacb1da6022b53cdd6697eaafabb76699e5651f1"
+    },
+    "ecommerce-personalization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-personalization/SKILL.md",
+      "computedHash": "5de20011e0574783f60fd3696f93919cfbeb85b55fe8d3cb6b7608fafd6ac3d8"
+    },
+    "ecommerce-ppc-strategy-planner": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-ppc-strategy-planner/SKILL.md",
+      "computedHash": "8ee7afb6726d7515e340cb1bb8b7c32f59f59f3b4621ee66cc96d007df38fbf3"
+    },
+    "ecommerce-returns-management": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-returns-management/SKILL.md",
+      "computedHash": "af964a0867d76fca37f8996bcc35f22de9f81a8bb84278c42658c9250ce1cc7d"
+    },
+    "ecommerce-shipping-rates": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-shipping-rates/SKILL.md",
+      "computedHash": "b6bfffb4bc178835f9003356c427cd5bd8722b5db86cf8ff6d1ea8d5e685d75f"
+    },
+    "ecommerce-social-media-marketing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "ecommerce-social-media-marketing/SKILL.md",
+      "computedHash": "852384c63cd16f3cd8b0b017c3a541cc3d28906aa84fe96ec4da784ab9dd92ce"
+    },
+    "etsy-advertising": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-advertising/SKILL.md",
+      "computedHash": "499e00bed4a87c06f84b644420376dd43881e56d471cdf427fe1624edc730ce3"
+    },
+    "etsy-competitor-analysis": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-competitor-analysis/SKILL.md",
+      "computedHash": "4813c46f44ac3c30643829dc0d6bb224b8a09698fee501b3c9cda30ff13e6ac7"
+    },
+    "etsy-custom-orders": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-custom-orders/SKILL.md",
+      "computedHash": "7c555f06658a3c0698d47384f8ff77833029a3fd2f7aa7098c17907fd93494a0"
+    },
+    "etsy-digital-products": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-digital-products/SKILL.md",
+      "computedHash": "beccbf9470c0a967a006d4119df0e65621d648a942ecc0bb0b297fd5c7a5c84f"
+    },
+    "etsy-keyword-research": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-keyword-research/SKILL.md",
+      "computedHash": "8451535c8c674536339551f30d1d6b08f06961a7a72f45ebe635df4db32b7811"
+    },
+    "etsy-listing-photography": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-listing-photography/SKILL.md",
+      "computedHash": "3621458b135d75f7597ff4b3218b69a282c3f2a7e41309dc697c9fd52fd45943"
+    },
+    "etsy-multi-shop": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-multi-shop/SKILL.md",
+      "computedHash": "eb209404b495d196c5834f3c49abfb7fdf48ecbd11814958ffe30056806d792f"
+    },
+    "etsy-offsite-ads": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-offsite-ads/SKILL.md",
+      "computedHash": "ba25e1189303256dadbdd7998d1b73239f45c3fd1688c04ba05084a48e4804b5"
+    },
+    "etsy-pricing-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-pricing-strategy/SKILL.md",
+      "computedHash": "ff2ad28bacafbba769ebca58c37c58bf9d785f8a40120bb5c44363fdc810c8d5"
+    },
+    "etsy-print-on-demand": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-print-on-demand/SKILL.md",
+      "computedHash": "eb7dba5bcfbe56d02cf64f2ddf76702e8a5bbaad3b14eec6e4f7853794fa839e"
+    },
+    "etsy-product-description": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-product-description/SKILL.md",
+      "computedHash": "56d045489978250af4aebf6623634f58184a0bcacf5ba89feab8a3070cc9ed39"
+    },
+    "etsy-review-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-review-strategy/SKILL.md",
+      "computedHash": "eed3b9ab8533bc1da3a5e9342fd0df0c73ab7636983c5d247276f8b5ab312c0a"
+    },
+    "etsy-seasonal-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-seasonal-strategy/SKILL.md",
+      "computedHash": "e5e971ceda71ac385cfd52211d811fa8060475dffe6141cbb3567e4ff2f5193f"
+    },
+    "etsy-seo": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-seo/SKILL.md",
+      "computedHash": "98b9cd61df8235ec8a7053238b7ad84ab88c31f4c43c2cc763193e0a13b9e9a5"
+    },
+    "etsy-seo-tags": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-seo-tags/SKILL.md",
+      "computedHash": "59bddbb0ce5ed3b2838ee788c2b702aa603b66ed8e6e49257e167536d85fcce7"
+    },
+    "etsy-shipping-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-shipping-strategy/SKILL.md",
+      "computedHash": "d3aebf1daad25c3295689c1ed12eef21cf88f7fffbd72c2f5f4b9f5838ebcc87"
+    },
+    "etsy-shop-analytics": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-shop-analytics/SKILL.md",
+      "computedHash": "9b7f1e123210fcea8362eac3eb032699513903ff39ba4e851da2c34720fd2e9e"
+    },
+    "etsy-shop-branding": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-shop-branding/SKILL.md",
+      "computedHash": "99a6e2453e642be839f3e32f91689fe0f9722ba350036b78e14d8992a56acbe0"
+    },
+    "etsy-shop-setup": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-shop-setup/SKILL.md",
+      "computedHash": "d1a65010c1f6e58d07655bf70f04cd8a6d3663f1416e2a0b7e3bda0bb88f97ba"
+    },
+    "etsy-social-media-marketing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-social-media-marketing/SKILL.md",
+      "computedHash": "c9c578f2c086b34420e97bc16d0a9bc431e5f354b10560ca0eb84253269640c1"
+    },
+    "etsy-star-seller": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "etsy-star-seller/SKILL.md",
+      "computedHash": "51234812537b15bb8845980ca3b9f9fbdae04751e3a4b0cc768fd3a562d75f5b"
     },
     "git-guardrails-claude-code": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/misc/git-guardrails-claude-code/SKILL.md",
-      "computedHash": "ccf581d304132095c2787b0a3bcb7b4ff125863c9f796fb16311d8f1cacef470"
+      "computedHash": ""
+    },
+    "google-shopping-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "google-shopping-optimization/SKILL.md",
+      "computedHash": "3d8a38b0f323667858779aadcb8504e5d8ce0e7274eb3d39da123b772592ae3a"
     },
     "grill-me": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "computedHash": "9cdbb4b8f7a3aeaef82e6230c9e823500d4a8a1214c726cf342cf9829d34fc7d"
+      "computedHash": ""
     },
     "grill-with-docs": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
-      "computedHash": "35e62aa423aaeab6a414bcac273f56dfb17802ef2334b41b6a3b00f28196c8cf"
+      "computedHash": ""
     },
     "grilling": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/grilling/SKILL.md",
-      "computedHash": "e40cc1d348f6d935e28f1e24474302d7368f0a400429271a43b35fe154891dc5"
+      "computedHash": ""
     },
     "handoff": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/handoff/SKILL.md",
-      "computedHash": "8ebcf017c0a59681f3c2f1ebf90e32f481954a068181a75151c44aa2c55de4b4"
+      "computedHash": ""
     },
     "implement": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/implement/SKILL.md",
-      "computedHash": "b6371a0a6723bad551f3adc721e3729a6a97acfc3670dc2bdea198bbe78408c0"
+      "computedHash": ""
     },
     "implement-spec": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/implement-spec/SKILL.md",
-      "computedHash": "0ccc13c6766b0e5f55229c8f1252d004090da70e6610b4c324cd245970fcb3f1"
+      "computedHash": ""
     },
     "improve-codebase-architecture": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
-      "computedHash": "f768cb44209e0d30e3449b8f95ea3dc8293093f73cfe02127d530db43412cf76"
+      "computedHash": ""
     },
     "loop-me": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/loop-me/SKILL.md",
-      "computedHash": "72e01a16929dbf6583afc469a49d64b28b1be4a6034c900decd94cd5a69ba6e6"
+      "computedHash": ""
+    },
+    "market-gap-analysis": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "market-gap-analysis/SKILL.md",
+      "computedHash": "bfa395ab7eecd1cf0a6ba26d795e3b157af839bdfe0179cd6b64e4b8b19aa119"
     },
     "migrate-to-shoehorn": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/misc/migrate-to-shoehorn/SKILL.md",
-      "computedHash": "6397731ced114f3657aa88b55ed13d1344a56d77ca449c568e3200c21740fa99"
+      "computedHash": ""
     },
     "pr": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/pr/SKILL.md",
-      "computedHash": "22a15d4d469344b38e03eb0e95772478393975836289393b1bad3c0febcdc679"
+      "computedHash": ""
+    },
+    "price-optimization-tool": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "price-optimization-tool/SKILL.md",
+      "computedHash": "20e54bdacf668fd9de67a4ced311d81f61980643504029bcc93d1b6d45640441"
+    },
+    "product-description-generator": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "product-description-generator/SKILL.md",
+      "computedHash": "204671f84071000507b230894db40e87982a16739b0aef190f9f48405dca5e48"
+    },
+    "product-launch-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "product-launch-strategy/SKILL.md",
+      "computedHash": "12c31bb14d68451ea23f74967da945644c7b65614d487d2866cf7b058e3bb2b4"
+    },
+    "product-page-seo": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "product-page-seo/SKILL.md",
+      "computedHash": "19b98a2bcff23ba8559af4ec02e6203b8c86d81a3f52bb6bbfeeb6796f18bbcb"
+    },
+    "product-review-analysis": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "product-review-analysis/SKILL.md",
+      "computedHash": "68e01e340688bdb31761f92d362c8cc3c71d6415602953b97713b4a631eb4a4b"
+    },
+    "product-title-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "product-title-optimization/SKILL.md",
+      "computedHash": "cbc5ad440a1f97c7a532ac411656dee6ed249a50e13f4f8106c0be668b47f683"
     },
     "prototype": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/prototype/SKILL.md",
-      "computedHash": "d3fc74689bd993e39c44bfae510d014eecffbeec2922764b065377fd1327c0f6"
+      "computedHash": ""
     },
     "research": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/research/SKILL.md",
-      "computedHash": "5d85b64ecceed6b3f6d5996dc8af07180be8d1ff11ef3d26eda2acff078fbd39"
+      "computedHash": ""
     },
     "retro": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/retro/SKILL.md",
-      "computedHash": "b8d55851a2909e26c2dbb2e8563719c87b3b700559f604e4df344f8c27e21047"
+      "computedHash": ""
+    },
+    "review-monitoring": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "review-monitoring/SKILL.md",
+      "computedHash": "2eb0c7cb43a3a70980d54d8d301dd1c21eb393e449de8cfbb849a6af526af47f"
+    },
+    "sales-tracking-tool": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "sales-tracking-tool/SKILL.md",
+      "computedHash": "790c6ddb2f2f9405fd19f568c3ebf60ae0771655ab326023f1df10b9b9fa82a8"
     },
     "scaffold-exercises": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/misc/scaffold-exercises/SKILL.md",
-      "computedHash": "354c91f6dbc9b058632f30594aacb4edc6d25012596585abb00402af8d7ec5e9"
+      "computedHash": ""
     },
     "setup-matt-pocock-skills": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
-      "computedHash": "50d6c45174f56a4323b24978f36fcc9169fae0b3abb026587bf636e468c4954c"
+      "computedHash": ""
     },
     "setup-pre-commit": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/misc/setup-pre-commit/SKILL.md",
-      "computedHash": "7fc7b680161a5cb834b165e36efc2378ff63a1f80df0a9efd18448d366bea98a"
+      "computedHash": ""
     },
     "setup-ts-deep-modules": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
-      "computedHash": "61508216ede38d8cfa712879197a76f75f4896615dbf7abc3f62571f8f5923cc"
+      "computedHash": ""
+    },
+    "shopify-app-recommendations": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-app-recommendations/SKILL.md",
+      "computedHash": "6cac02d8eece4f370462035fbdbb936dbf17d6c710cd464f1eee2d28b8e88a63"
+    },
+    "shopify-blog-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-blog-strategy/SKILL.md",
+      "computedHash": "00471e34488f689a8f30a073c274756ee5ff21da3aea2b491168069adf812aa3"
+    },
+    "shopify-cart-abandonment": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-cart-abandonment/SKILL.md",
+      "computedHash": "5c0bc2350340ef9e3edefa76bc009ccef74e2c940f16502de06d821977ece623"
+    },
+    "shopify-checkout-customization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-checkout-customization/SKILL.md",
+      "computedHash": "2cf9efa9bf0aca6cf1be2fd7b66c60c4c6be98c3125f67a5b1426d8075956d37"
+    },
+    "shopify-dropshipping": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-dropshipping/SKILL.md",
+      "computedHash": "742eb5feb7b79afa8741ea2f0f513d9e9a498d6beb3f0bf7f32de929e792d5e3"
+    },
+    "shopify-email-flows": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-email-flows/SKILL.md",
+      "computedHash": "d4e07108bd99e9653db78e80bdb66936177fb04338fa043e368cc83d7c4510d7"
+    },
+    "shopify-facebook-instagram-shop": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-facebook-instagram-shop/SKILL.md",
+      "computedHash": "067dd7fb44c26d58d1ca08e9e4e8710d8b2afef0162d1f0230c1dee4162849cd"
+    },
+    "shopify-google-channel": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-google-channel/SKILL.md",
+      "computedHash": "acedbfb503ee84394a33016eb290ceaca5e012fd5dd2586d5d94c2cb81856b5b"
+    },
+    "shopify-international": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-international/SKILL.md",
+      "computedHash": "fe8e84ab507d0a27554abf57cb15c4d43e9983311e1e4417babd830e0f277fca"
+    },
+    "shopify-inventory-management": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-inventory-management/SKILL.md",
+      "computedHash": "96985937eb500cdd488c7fef3e3776a93bc56fb41a36e0237b4fde4ebe3e7b58"
+    },
+    "shopify-landing-page-builder": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-landing-page-builder/SKILL.md",
+      "computedHash": "02195165a69978f0047b67bf0a75d7c4cd48d0e0299de64d98006527e581381c"
+    },
+    "shopify-loyalty-program": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-loyalty-program/SKILL.md",
+      "computedHash": "362c46b95414bf07a2c8af57eb51aee58852227e2f44be85b74440b2cd7a3de8"
+    },
+    "shopify-marketing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-marketing/SKILL.md",
+      "computedHash": "64efa607689f2dd46be4f7d1430c94962138254c052c69a76503188cadbe9730"
+    },
+    "shopify-migration": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-migration/SKILL.md",
+      "computedHash": "cee5fb70ccd7dc48acc71da3845af3f1a740a79bc74d0916ffff37d918d025da"
+    },
+    "shopify-product-photography-guide": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-product-photography-guide/SKILL.md",
+      "computedHash": "ed48459afdf6675e9b029b83b676feb846e5bcb856fcf4673e80db344330ead2"
+    },
+    "shopify-speed-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-speed-optimization/SKILL.md",
+      "computedHash": "62a2e9de1fa001c728ed590ea37f77b28d22271276e3f8c14c8f07cf0a7e87c7"
+    },
+    "shopify-subscription-setup": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-subscription-setup/SKILL.md",
+      "computedHash": "58690dd2e5c2a93b51ab7b824587ab9cf8042eecdcb163a56e21f550ab35c648"
+    },
+    "shopify-tax-compliance": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-tax-compliance/SKILL.md",
+      "computedHash": "772520cb665a6f03ceda9ad59fdfece402e3b86462343b9cba5009080ca10d07"
+    },
+    "shopify-theme-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-theme-optimization/SKILL.md",
+      "computedHash": "ab644c07ed1fab9d2d663fdb634d80d30b5e3adca38ffd64e52be1b26dc661e6"
+    },
+    "shopify-upsell-cross-sell": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-upsell-cross-sell/SKILL.md",
+      "computedHash": "88ea014d11b1e0da7ce457984a42821fdb0233b2392e9e11275a7a2919bb1862"
+    },
+    "shopify-wholesale-channel": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "shopify-wholesale-channel/SKILL.md",
+      "computedHash": "d6339ae4a06ee0686e59464e573e1f9242f5edf2d7033fa7c8086e0063b1cb64"
+    },
+    "social-media-monitor": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "social-media-monitor/SKILL.md",
+      "computedHash": "cf6be64df57bd13afef1a26072f3230f7d92bc839eb26cf106bf64fe43e44b64"
     },
     "tdd": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/tdd/SKILL.md",
-      "computedHash": "daf55026f456af104a72fa43247f7bcec89e5127316dc5b1b8d675d6a9d8ce94"
+      "computedHash": ""
     },
     "teach": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/teach/SKILL.md",
-      "computedHash": "81c196426808c270a9d4688be291405c038bba11f020b9fe10098ad0f1d8c132"
+      "computedHash": ""
+    },
+    "tiktok-creator-marketplace": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-creator-marketplace/SKILL.md",
+      "computedHash": "e388728fa6f2d02fef83cd2060e4c4afe99cf28020f5751b349f463a5305a5c4"
+    },
+    "tiktok-influencer-marketing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-influencer-marketing/SKILL.md",
+      "computedHash": "120f673ef85cae168dcad95e2c887fd5c837ac9800ec0f4a8298e7dfcb788631"
+    },
+    "tiktok-shop-ads": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-ads/SKILL.md",
+      "computedHash": "23aa28983fa9f6f450f17fc4ef82d24c535dc5b9ad2b05ef7ce1ab98d45fe61d"
+    },
+    "tiktok-shop-affiliate-program": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-affiliate-program/SKILL.md",
+      "computedHash": "a152b090494bfd03cd8a99a96d8e2ad8ac0bea8c5e99e87c90388668a917aa40"
+    },
+    "tiktok-shop-analytics": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-analytics/SKILL.md",
+      "computedHash": "e5c34c5eda6beb7c8aba76da3c40b266f4862492b221c5a9d84159797297fc54"
+    },
+    "tiktok-shop-branding": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-branding/SKILL.md",
+      "computedHash": "a1508f8d1af43490752143df1a58d07e5362bf4a286178752fd8936ce06c3d53"
+    },
+    "tiktok-shop-compliance": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-compliance/SKILL.md",
+      "computedHash": "e8fc8fd745bb853501cb7acac537d92c2b7e92a981362ea82ff4e7197d14a8cf"
+    },
+    "tiktok-shop-content-strategy": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-content-strategy/SKILL.md",
+      "computedHash": "8de083a22bdd781b1bccd7dd23419891c3a3562ead2f321f369e67681d9ab95a"
+    },
+    "tiktok-shop-conversion": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-conversion/SKILL.md",
+      "computedHash": "8369c6fbfd447f9a1bdcec3d956cd5bf381f6eaff7fa38ed7aa869ef40360cf4"
+    },
+    "tiktok-shop-creator-management": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-creator-management/SKILL.md",
+      "computedHash": "eee597c073d83ca6650e9441dacbfbc52bd0f0ea22aa40c2c134fb9651772824"
+    },
+    "tiktok-shop-cross-border": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-cross-border/SKILL.md",
+      "computedHash": "c5527c2ead1b6826dc56c6ad4b8b22a7fd135044d300845e7b5af5256e705917"
+    },
+    "tiktok-shop-customer-service": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-customer-service/SKILL.md",
+      "computedHash": "f4860fd5aefa4a341fe7a21ff3c209fcd0649be3c4bf9dec24433bcf54b3fa69"
+    },
+    "tiktok-shop-fulfillment": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-fulfillment/SKILL.md",
+      "computedHash": "29cf3abbe55642fcbb985fa45cb67026703f3e62d35ea1e6ecd5128aab08c956"
+    },
+    "tiktok-shop-inventory": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-inventory/SKILL.md",
+      "computedHash": "4d8d06193528a527c251c34d6b6dfa0f49e81e41bda0b28074856b6c4951b086"
+    },
+    "tiktok-shop-listing-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-listing-optimization/SKILL.md",
+      "computedHash": "7051de916b8932fce504d4cd06c3c041d175cff28680480c93391c8bf54b3850"
+    },
+    "tiktok-shop-pricing": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-pricing/SKILL.md",
+      "computedHash": "35fb718e99e6f70362d25f2a6bffc72a9d7b0e31f76c053ed38b65fc518f7664"
+    },
+    "tiktok-shop-product-research": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-product-research/SKILL.md",
+      "computedHash": "c39ca197716ee6cb2edd0db25b11fc106296ecc381d8c9d25a570dfc74bd4605"
+    },
+    "tiktok-shop-promotions": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-promotions/SKILL.md",
+      "computedHash": "3e45adad44c614eff48872f037fbfe695b5edd7f4727ae0cf3614b72f2b4f2ac"
+    },
+    "tiktok-shop-returns": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-returns/SKILL.md",
+      "computedHash": "b9dc262ed848c5dae78d1c7b46469cf4cec605c18740d667b598902082f44828"
+    },
+    "tiktok-shop-reviews": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-reviews/SKILL.md",
+      "computedHash": "218925020a76b029d4e2f7c1990eb2f70a771968f4567a0510e6b5da79d555ed"
+    },
+    "tiktok-shop-seller-guide": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-seller-guide/SKILL.md",
+      "computedHash": "7cded6782584c5476d8a962e86529fb57d051191653e1c0d8f797bbd01700353"
+    },
+    "tiktok-shop-shipping": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-shipping/SKILL.md",
+      "computedHash": "a620dea5d7ed46e50b98240eacad865a88dbbb1833fb91f983213606a3637847"
+    },
+    "tiktok-shop-trending-products": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "tiktok-shop-trending-products/SKILL.md",
+      "computedHash": "d100489dcb229cf76d0cee9b2e32ac860fc613d8675057b7ef822b9513b3b32f"
     },
     "to-questionnaire": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/to-questionnaire/SKILL.md",
-      "computedHash": "befbec7005695163741a57bc94810dc5048fb766baaa485d5160b1d7f86335c1"
+      "computedHash": ""
     },
     "to-spec": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/to-spec/SKILL.md",
-      "computedHash": "3fa1a0695d4ea242fae9e569e4d22aa1788623197abb33bfadafae7315789bbf"
+      "computedHash": ""
     },
     "to-tickets": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/to-tickets/SKILL.md",
-      "computedHash": "5f871bdc46a9212222214ba399be4965374208af1bd7f48f1271bef72841dd31"
+      "computedHash": ""
     },
     "triage": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/triage/SKILL.md",
-      "computedHash": "a683e69163e23630f39c05a50fb9d83a3795a6a6fbd317357669e082cd43a158"
+      "computedHash": ""
     },
     "wait-what": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/wait-what/SKILL.md",
-      "computedHash": "1921c02ea4046fd8f9c219140780233fe6e22e2fe4442961378da2ac31f3f403"
+      "computedHash": ""
+    },
+    "walmart-listing-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "walmart-listing-optimization/SKILL.md",
+      "computedHash": "ce6e014fc862893c652daae1f7a8893489ab15f8cb0207a295845bc50d5c77c3"
+    },
+    "warehouse-optimization": {
+      "source": "nexscope-ai/eCommerce-Skills",
+      "commit": "c5ba892a1cc3178626577aed1dbde5e62a82f1ac",
+      "sourceType": "github",
+      "skillPath": "warehouse-optimization/SKILL.md",
+      "computedHash": "c99972e346775d0fee132b9dc67f73bf6ecb811a18780eaf7324bef98f9b7374"
     },
     "wayfinder": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/wayfinder/SKILL.md",
-      "computedHash": "22338d9356ef84430c5ca916f2632f226583d9d7366433f62bfde5b1b6781e9e"
+      "computedHash": ""
     },
     "wizard": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/wizard/SKILL.md",
-      "computedHash": "49298bed80e7f722b071ad5d64798c75eb705bbbe0635b9bbffd08cd6fb81647"
+      "computedHash": ""
     },
     "writing-beats": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/writing-beats/SKILL.md",
-      "computedHash": "220b163698de9c1e551b801795cc8ca38132b69018f82188875b3675226fc888"
+      "computedHash": ""
     },
     "writing-for-agents": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
-      "computedHash": "95da47fc97af998e85b7d7e6d57b3ac76727c1e290cfe9ea09005aacb826959f"
+      "computedHash": ""
     },
     "writing-fragments": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/writing-fragments/SKILL.md",
-      "computedHash": "cbd8c4ed24ebc292017831ef76bc8798719b3adcd18f7781a632a37844a1c369"
+      "computedHash": ""
     },
     "writing-shape": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/in-progress/writing-shape/SKILL.md",
-      "computedHash": "0d0ac1150c4d65f8370ad194fc097ee17855247f6e5943d05f075806980e7401"
+      "computedHash": ""
     }
   }
 }
